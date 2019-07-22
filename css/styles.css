@@ -3,3 +3,38 @@ body{
     padding: 0;
     width: 100%;
 }
+
+header {
+  background-color: white;
+  background-image: url("../img/bmw 4x4 arriere.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 904px;
+}
+
+/* deuxième titre visuel*/
+h1 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size : 60px;
+  margin-bottom: 0px;
+
+}
+
+/* premier titre visuel*/
+#overtitle{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size : 81px;
+  margin-top: 18%;
+  margin-right: 20%;
+  line-height: 94%;
+}
+#title {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 5%;
+
+}
