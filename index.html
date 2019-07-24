@@ -8,6 +8,8 @@
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -33,23 +35,87 @@
       </div>
     </div>
   </header>
+
   <main>
     <!--first section with a <div> with text on the left and an image on the right-->
-    <section>
-
+    <section id="section_1">
+      <div id="texte_s1">
+        <h2 class="titres_sections">Visionnaire sous tous les angles</h2>
+        <h3 class="sous_titres_sections">Style futuriste</h3>
+        <p>La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie assumé.
+          Son langage stylistique futuriste lui confère également de la clareté à l'extérieur
+          et une ambiance "lounge" à l'intérieur.</p>
+        <p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux
+          durables et par une foison de détails fonctionnels. Une voiture novatrice qui mise sur
+          l'individualité.</p>
+      </div>
+      <img id="photo_s1" src="img/m3 face avant.png" alt="m3 face avant">
     </section>
+
     <!--second section with an image on the left and a <div> with text on the right-->
-    <section>
+    <section id="section_2">
+      <img id="photo_s2" src="img/M3 arriere.png" alt="m3 face arrière">
+      <div id="texte_s2">
+        <div>
+          <h3>Puissance du système en kW (ch)(225xe)</h3>
+          <p>165(224)</p>
+        </div>
 
-    </section>
-    <!--first section with a <div> with text on the left and a div with 4 images with target_blank link on the right-->
-    <section>
+        <div>
+          <h3>Accélération de 0 à 100km/h en s (225xe)</h3>
+          <p>6,7</p>
+        </div>
 
+        <div>
+          <h3>Consommation en cycle mixte e, I/100km (225xe)</h3>
+          <p>2,7-2,3(3)</p>
+        </div>
+
+        <div>
+          <h3>Emission de CO2 en cycle mixte en g/km (225xe)</h3>
+          <p>61-52(3)</p>
+        </div>
+      </div>
     </section>
+
+    <!--third section with a <div> with text on the left and a div with 4 images with target_blank link on the right-->
+    <section id="section_3">
+      <div id="texte_s3">
+        <h2 class="titres_sections">Conçue pour l'émotion</h2>
+        <h3 class="sous_titres_sections">Matériaux exclusifs</h3>
+        <p>Chaque détail impressionne: alors qu'à l'extérieur, ce sont des peintures exceptionnelles qui
+          mettent en valeur l'allure de la nouvelle BMW Série 8 Coupé, à l'intérieur, ce sont des matériaux
+          luxueux associés à des surpiqûres contrastée élégantes et des éléments décoratifs.</p>
+      </div>
+      <div id="images_s3">
+        <div>
+          <img class="quatre_photos" src="img/image compteur.png" alt="Photo du compteur">
+          <img class="quatre_photos" src="img/phare bmw.png" alt="Photo du phare">
+        </div>
+        <div>
+          <img class="quatre_photos" src="img/jantes bmw.png" alt="Photo d'une jante">
+          <img class="quatre_photos" src="img/intérieur bmw.png" alt="Photo de l'habitacle">
+        </div>
+      </div>
+    </section>
+
     <!--fourth section with a background image a <div> with text on the left and a <form> on the right-->
     <section>
-
+      <img id="photo_s4" src="img/bmw 4x4 brouillard.png" alt="Photo 4x4 dans le brouillard">
+      <div id="texte_s4">
+        <h2>Réservez votre essai gratuit</h2>
+        <h3>Nouveau MCAR MC-I crossover</h3>
+      </div>
+      <form id="form_s4" action="index.html" method="post">
+        <input type="text" name="Prénom*" value="Prénom*">
+        <input type="text" name="Nom*" value="Nom*">
+        <input type="email" name="Email*" value="Email*">
+        <input type="tel" name="Téléphone*" value="Téléphone*">
+        <input type="text" name="Code postal*" value="Code postal*">
+        <input type="submit" name="" value="Réserver mon essai">
+      </form>
     </section>
+
   </main>
   <!--Footer with 2 <div>. A left <div> with link in two <div> with <ul>. And a right <div> with some text over 3 social media logo-->
   <footer>
