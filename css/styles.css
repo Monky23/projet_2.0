@@ -4,14 +4,26 @@ body{
     width: 100%;
     background-color: white;
 }
-
 header {
-  background-image: url("../img/bmw 4x4 arriere.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 904px;
+  width: 100%;
+  margin: 0%;
 }
-
+#relatif{
+  position: relative;
+  width: 100%;
+}
+#absolute{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+#logo{
+  margin-left: 45%;
+}
 /* deuxième titre visuel*/
 h1 {
   color: white;
@@ -19,25 +31,27 @@ h1 {
   font-weight: 400;
   font-size : 60px;
   margin-bottom: 0px;
-
+  margin-top: -5%;
 }
-
 /* premier titre visuel*/
 #overtitle{
   color: white;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size : 81px;
-  margin-top: 18%;
   margin-right: 20%;
-  line-height: 94%;
+  line-height: 100%;
 }
 /* DIV containing the titles */
 #title {
   display: flex;
   flex-direction: column-reverse;
   margin-left: 5%;
-
+  margin-top: 0%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-top: 23%;
 }
 
 section {
@@ -133,4 +147,20 @@ p {
 #form_s4{
   z-index: 3;
   position:absolute;
+}
+/*Bouton demander un essai*/
+#header-btn{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 16%;
+  margin-left: 83%;
+  margin-top: 50.9%;
+}
+#header-btn a{
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
 }
