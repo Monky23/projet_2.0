@@ -140,7 +140,11 @@ p {
 }
 
 .quatre_photos{
-  width: 50%;
+  width: 50%; 
+}
+
+.quatre_photos:hover{
+  opacity: 0.5;
 }
 
 #photo_s4{
@@ -180,4 +184,49 @@ main{
 }
 #padtest{
   padding-top: 52%;
+}
+.perf{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.end{
+ display: flex;
+ justify-content: end;
+}
+.perfresult{
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 131%;
+}
+#lastperf {
+  border-bottom: none;
+}
+#links{
+  width: 50%;
+  display: flex;
+
+}
+.liens{
+  width: 50%;
+}
+footer{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+#social{
+  justify-content: space-around;
+  margin-left: 37%;
+  margin-top: 3%;
+}
+
+li{
+  line-height: 230%;
+  list-style: none;
+}
+
+#links h3{
+  margin-top: 17%;
+  margin-left:11%;
 }
