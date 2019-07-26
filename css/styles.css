@@ -149,17 +149,18 @@ p {
 
 #photo_s4{
   width: 100%;
-  z-index: 1;
+  margin: 0%;
+  /*z-index: 1;*/
 }
 
-#texte_s4{
-  z-index: 3;
+/*#texte_s4{
+ z-index: 3;
   position: absolute;
-}
-#form_s4{
+}*/
+/*#form_s4{
   z-index: 2;
   position:absolute;
-}
+}*/
 
 /*Bouton demander un essai*/
 #header-btn{
@@ -202,6 +203,7 @@ main{
 #lastperf {
   border-bottom: none;
 }
+/*partie footer*/
 #links{
   width: 50%;
   display: flex;
@@ -229,4 +231,40 @@ li{
 #links h3{
   margin-top: 17%;
   margin-left:11%;
+}
+/*section formulaire*/
+#relative_2{
+  position: relative;
+  width: 100%;
+}
+#absolute_2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#image_form{
+  width: 100%;
+  margin: 0%;
+}
+#section_4{
+  width: 100%;
+  margin: 0%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-self: flex-end;
+  margin-right: 5%;
+}
+#contenant_form{
+  display: flex;
+  justify-content: flex-end;
+}
+form *{
+  margin-top: 5%;
+  height: 10%;
 }
