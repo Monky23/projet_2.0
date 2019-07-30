@@ -131,7 +131,7 @@ p {
   padding: 5%;
 }
 
-#images_s3{
+#images_s3 {
   padding: 0px;
   margin: 0px;
   width:50%;
@@ -139,12 +139,18 @@ p {
   flex-wrap: wrap;
 }
 
+#images_s3 a{
+  width: 50%;
+  display: flex;
+}
+
 .quatre_photos{
-  width: 50%; 
+  width: 100%;
+  opacity: 0.5;
 }
 
 .quatre_photos:hover{
-  opacity: 0.5;
+  opacity: 1;
 }
 
 #photo_s4{
@@ -211,6 +217,7 @@ main{
 }
 .liens{
   width: 50%;
+
 }
 footer{
   display: flex;
@@ -264,7 +271,38 @@ form{
   display: flex;
   justify-content: flex-end;
 }
-form *{
+.form_s4{
   margin-top: 5%;
-  height: 10%;
+  padding: 4%;
+  border: none;
+  color: black;
+}
+
+#button{
+  background-color: black;
+  color:white;
+  padding: 2%;
+  width: 50%;
+  font-size: 160%;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  border: none;
+ 
+}
+
+#id_button{
+  display: flex;
+  justify-content:center;
+
+}
+
+#mergeRow-gdpr *{
+font-size: 80%;
+
+}
+#mergeRow-gdpr{
+
+}
+.content__gdpr{
+
 }
