@@ -199,6 +199,7 @@ main{
   margin-top: -1%;
 }
 #padtest{
+  display:flex;
   justify-content: flex-end;
   align-items: flex-end;
   height:15%;
