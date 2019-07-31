@@ -18,11 +18,11 @@
   <header>
     <div id="relatif">
       <div>
-        <img src="img/newbm.jpg" alt="vue trois quart arrière du Crossover" width="100%">
+        <img src="img/newbm.jpg" alt="vue_trois_quart_arrière_du_Crossover" id="header_photo">
       </div>
       <div id="absolute">
         <div id="contenant-logo">
-          <img src="img/Mcar logo.png" alt="logo Mcar" id="logo" />
+          <img src="img/Mcarlogo.png" alt="logo Mcar" id="logo" />
         </div>
         <div id="title">
           <h1>Nouveau MCAR MC-I crossover</h1>
@@ -31,7 +31,7 @@
         <div id="padtest">
           <div id="header-btn">
             <img src="img/brief.png" alt="pictogramme d'un volant" />
-            <a class="dropdown-item" href="#form_s4">Demander un Essai</a>
+            <a class="dropdown-item" href="#contenant_form">Demander un Essai</a>
           </div>
         </div>
       </div>
@@ -51,12 +51,12 @@
           durables et par une foison de détails fonctionnels. Une voiture novatrice qui mise sur
           l'individualité.</p>
       </div>
-      <img id="photo_s1" src="img/m3 face avant.png" alt="m3 face avant">
+      <img id="photo_s1" src="img/m3faceavant.png" alt="m3 face avant">
     </section>
 
     <!--second section with an image on the left and a <div> with text on the right-->
     <section id="section_2">
-      <img id="photo_s2" src="img/M3 arriere.png" alt="m3 face arrière">
+      <img id="photo_s2" src="img/M3arriere.png" alt="m3_face_arrière">
       <div id="texte_s2">
         <div class="perf">
           <h3 class="perfresult">Puissance du système en kW (ch)<br>(225xe)</h3>
@@ -91,13 +91,13 @@
       </div>
       <div id="images_s3">
         <a href="https://www.bmw.fr/fr/tous-les-modeles/x-series/X3/2019/bmw-x3-inspirer.html" target="_blank"><img
-            class="quatre_photos" src="img/modif1.png" alt="Photo du compteur"></a>
+            class="quatre_photos" src="img/modif1.png" alt="Photo_du_compteur"></a>
         <a href="https://www.bmw.fr/fr/tous-les-modeles/x-series/X3/2019/bmw-x3-inspirer.html" target="_blank"><img
-            class="quatre_photos" src="img/modif2.png" alt="Photo du phare"></a>
+            class="quatre_photos" src="img/modif2.png" alt="Photo_du_phare"></a>
         <a href="https://www.bmw.fr/fr/tous-les-modeles/x-series/X3/2019/bmw-x3-inspirer.html" target="_blank">
-          <img class="quatre_photos" src="img/modif3.png" alt="Photo d'une jante"></a>
+          <img class="quatre_photos" src="img/modif3.png" alt="Photo_d'une_jante"></a>
         <a href="https://www.bmw.fr/fr/tous-les-modeles/x-series/X3/2019/bmw-x3-inspirer.html" target="_blank"><img
-            class="quatre_photos" src="img/modif4.png" alt="Photo de l'habitacle"></a>
+            class="quatre_photos" src="img/modif4.png" alt="Photo_de_l'habitacle"></a>
       </div>
     </section>
 
@@ -105,7 +105,7 @@
     <section id="section_4">
       <div id="relative_2">
         <div #image_form>
-          <img id="photo_s4" src="img/bmw 4x4 brouillard.png" alt="Photo 4x4 dans le brouillard">
+          <img id="photo_s4" src="img/bmw4x4brouillard.png" alt="Photo_4x4_dans_le_brouillard">
         </div>
         <div id="absolute_2">
           <div id="texte_s4">
@@ -116,11 +116,11 @@
             <form action="https://hotmail.us3.list-manage.com/subscribe/post" method="POST">
               <input type="hidden" name="u" value="c9fb4fd95dd413772d3fdf115">
               <input type="hidden" name="id" value="8625b2ac65">
-              <input class="form_s4" type="text" name="PRENOM" placeholder="Prenom*">
-              <input class="form_s4" type="text" name="NOM" placeholder="Nom*">
-              <input class="form_s4" type="email" name="EMAIL" placeholder="Email*">
-              <input class="form_s4" type="tel" name="PHONE" placeholder="Téléphone*">
-              <input class="form_s4" type="text" name="CODEPOSTAL" placeholder="Code postal*">
+              <input class="form_s4" type="text" name="PRENOM" placeholder="Prenom*" required>
+              <input class="form_s4" type="text" name="NOM" placeholder="Nom*" required>
+              <input class="form_s4" type="email" name="EMAIL" placeholder="Email*" required>
+              <input class="form_s4" type="tel" name="PHONE" placeholder="Téléphone*" required>
+              <input class="form_s4" type="text" name="CODEPOSTAL" placeholder="Code postal*" required>
               <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                 <div class="content__gdpr">
                   <p>Préférences de communication MCAR:</p>
@@ -140,12 +140,12 @@
                 <div class="content__gdprLegal">
                   <p>En cliquant sur le lien ci-dessous, vous acceptez nos conditions générales d'utilisation.<a
                       href="https://mailchimp.com/legal/" target="_blank">En savoir plus sur la politique de
-                      confidentialité de Mailchimp.
-                    </a></p>
+                      confidentialité de Mailchimp.</a>
+                  </p>
                 </div>
               </div>
               <div id="id_button">
-                <input id="button" type="submit" name="" value="Réserver mon essai">
+                <input id="button" type="submit" value="Réserver mon essai">
               </div>
             </form>
           </div>
@@ -158,7 +158,7 @@
   <footer>
     <div id="links">
       <div class="liens">
-        <h3>Univers MCAR</h3>
+        <h3 id="pad_foot">Univers MCAR</h3>
         <ul>
           <li><a href="https://www.bmw.fr/fr/tous-les-modeles/x-series/X3/2019/bmw-x3-inspirer.html"
               target="_blank">MCAR Newsletter</a></li>
@@ -190,8 +190,8 @@
     </div>
     <div id="social">
       <h3>Rejoignez-nous</h3>
-      <img src="img/insta logo.png" alt="pictogramme qui fait un lien vers instagram"> <img src="img/linkedin logo.png"
-        alt="pictogramme qui fait un lien vers linkedin"> <img src="img/twiter logo.png"
+      <img src="img/instalogo.png" alt="pictogramme qui fait un lien vers instagram"> <img src="img/linkedinlogo.png"
+        alt="pictogramme qui fait un lien vers linkedin"> <img src="img/twiterlogo.png"
         alt="pictogramme qui fait un lien vers twitter">
     </div>
   </footer>

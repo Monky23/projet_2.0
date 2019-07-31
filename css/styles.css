@@ -87,7 +87,7 @@ section {
   margin: 0px;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: 280%;
+  font-size: 45px;
   line-height: 93%;
   text-transform:uppercase;
 }
@@ -96,15 +96,15 @@ section {
 .sous_titres_sections {
   font-family: 'Playfair Display', serif;
   font-weight:400;
-  font-size: 123%;
+  font-size: 19px;
   line-height: 93%;
-  padding-top: -5%;
+  padding-top: -20px;
   padding-bottom: 6%;
 }
 
 p {
   font-family: 'Lato', sans-serif;
-  font-size: 136%;
+  font-size: 21px;
 }
 
 #section_2{
@@ -124,6 +124,7 @@ p {
 #section_3{
   width: 100%;
   display: flex;
+  margin-bottom: -1%;
 }
 
 #texte_s3{
@@ -155,7 +156,9 @@ p {
 
 #photo_s4{
   width: 100%;
-  margin: 0%;
+  margin-bottom: -1%;
+  margin-top: 0%;
+
   /*z-index: 1;*/
 }
 
@@ -173,7 +176,7 @@ p {
   display: flex;
   align-items: center;
   background-color: white;
-  width: 16%;
+  width: 220px;
   margin-left: 80%;
   align-self: flex-end;
   /*margin-top: 52%;*/
@@ -183,14 +186,14 @@ p {
   font-family: 'Playfair Display', serif;
   color: black;
   font-weight: 500;
-  font-size: 120%;
+  font-size: 17px;
   margin-left: -4%;
 }
 main{
   margin-top: -1%;
 }
 #padtest{
-  padding-top: 52%;
+  padding-top: 777px;
 }
 .perf{
   display: flex;
@@ -204,7 +207,7 @@ main{
 .perfresult{
   font-weight: 500;
   font-family: 'Lato', sans-serif;
-  font-size: 131%;
+  font-size: 21px;
 }
 #lastperf {
   border-bottom: none;
@@ -217,12 +220,14 @@ main{
 }
 .liens{
   width: 50%;
-
+  font-size: 21px;
 }
 footer{
   display: flex;
   background-color: black;
   color: white;
+  margin-top: 0%;
+  padding-bottom: 3%;
 }
 #social{
   justify-content: space-around;
@@ -231,8 +236,9 @@ footer{
 }
 
 li{
-  line-height: 230%;
+  line-height: 180%;
   list-style: none;
+  font-family: 'Lato', sans-serif;
 }
 
 #links h3{
@@ -251,6 +257,7 @@ li{
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 #image_form{
   width: 100%;
@@ -258,7 +265,8 @@ li{
 }
 #section_4{
   width: 100%;
-  margin: 0%;
+  margin-top: -1%;
+  margin-bottom: -1%;
 }
 form{
   display: flex;
@@ -270,10 +278,11 @@ form{
 #contenant_form{
   display: flex;
   justify-content: flex-end;
+  margin-top: -4%;
 }
 .form_s4{
   margin-top: 5%;
-  padding: 4%;
+  padding: 2%;
   border: none;
   color: black;
 }
@@ -283,7 +292,7 @@ form{
   color:white;
   padding: 2%;
   width: 50%;
-  font-size: 160%;
+  font-size: 28px;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   border: none;
@@ -293,16 +302,36 @@ form{
 #id_button{
   display: flex;
   justify-content:center;
-
 }
 
 #mergeRow-gdpr *{
-font-size: 80%;
-
+font-size: 12px;
 }
-#mergeRow-gdpr{
-
+.liens a{
+  text-decoration: none;
+  color: white;
 }
-.content__gdpr{
-
+.liens a:hover{
+  color: #f70930;
+}
+#texte_s4 h2{
+  font-size: 78px;
+  margin-bottom: 0%;
+}
+#texte_s4 h3{
+  font-size: 39px;
+  font-weight: 400;
+  margin-top: 0%;
+}
+#texte_s4{
+  padding-left: 5%;
+}
+.liens h3{
+  font-size: 25px;
+}
+#pad_foot{
+  padding-bottom: 7%;
+}
+#header-photo{
+  width: 100%;
 }
