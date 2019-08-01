@@ -5,345 +5,303 @@ body{
   background-color: white;
 }
 header {
-width: 100%;
-margin: 0;
+  width: 100%;
+  margin: 0;
 }
 #relatif{
-position: relative;
-width: 100%;
+  position: relative;
+  width: 100%;
 }
-
-
 #absolute{
-display: flex;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-flex-direction: column;
-box-sizing: content-box;
-height: 100%;
-margin-bottom: -2%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: content-box;
+  height: 100%;
+  margin-bottom: -2%;
 }
-
 #contenant-logo{
-display: flex;
-justify-content: center;
-height: 21%;
+  display: flex;
+  justify-content: center;
+  height: 21%;
 }
 #contenant-logo img{
-max-height:60%;
+  max-height:60%;
 }
-
 /* deuxième titre visuel*/
 h1 {
-color: white;
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size : 57px;
-margin-bottom: 0px;
-margin-top: -5%;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size : 57px;
+  margin-bottom: 0px;
+  margin-top: -5%;
 }
 /* premier titre visuel*/
 #overtitle{
-color: white;
-font-family: 'Playfair Display', serif;
-font-weight: bold;
-font-size : 77px;
-margin-right: 20%;
-line-height: 100%;
-
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size : 77px;
+  margin-right: 20%;
+  line-height: 100%;
 }
 /* DIV containing the titles */
 #title {
-display: flex;
-flex-direction: column-reverse;
-margin-left: 5%;
-top: 0%;
-left: 0%;
-/* padding-top: 23%; */
-height: 64%;
-justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 5%;
+  top: 0%;
+  left: 0%;
+  /* padding-top: 23%; */
+  height: 64%;
+  justify-content: center;
 }
-
 section {
-width:100%;
-display: flex;
+  width:100%;
+  display: flex;
 }
-
 #section_1{
-flex-direction: row;
-justify-content: space-around;
-margin-bottom: 0%;
-margin-top: 0%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
-
 #texte_s1 {
-width:45%;
-padding: 5%;
+  width:45%;
+  padding: 5%;
 }
-
 #photo_s1 {
-width:50%;
+  width:50%;
 }
-
 /* pour les sections 1 et 3 */
 .titres_sections {
-margin: 0px;
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size: 45px;
-line-height: 93%;
-text-transform:uppercase;
+  margin: 0px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 93%;
+  text-transform:uppercase;
 }
-
 /* pour les sections 1 et 3 */
 .sous_titres_sections {
-font-family: 'Playfair Display', serif;
-font-weight:400;
-font-size: 19px;
-line-height: 93%;
-padding-top: -20px;
-padding-bottom: 6%;
+  font-family: 'Playfair Display', serif;
+  font-weight:400;
+  font-size: 19px;
+  line-height: 93%;
+  padding-top: -20px;
+  padding-bottom: 6%;
 }
-
 p {
-font-family: 'Lato', sans-serif;
-font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
 }
-
 #section_2{
-flex-direction: row;
-justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 #texte_s2 {
-width:45%;
-padding: 5%;
+  width:45%;
+  padding: 5%;
 }
-
 #photo_s2 {
-width:50%;
+  width:50%;
 }
-
 #section_3{
-width: 100%;
-display: flex;
-margin-bottom: -1%;
+  width: 100%;
+  display: flex;
+  margin-bottom: -1%;
 }
-
 #texte_s3{
-width:40%;
-padding: 5%;
+  width:40%;
+  padding: 5%;
 }
-
 #images_s3 {
-padding: 0px;
-margin: 0px;
-width:50%;
-display: flex;
-flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  width:50%;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 #images_s3 a{
-width: 50%;
-display: flex;
+  width: 50%;
+  display: flex;
 }
-
 .quatre_photos{
-width: 100%;
-opacity: 0.5;
+  width: 100%;
+  opacity: 0.5;
 }
-
 .quatre_photos:hover{
-opacity: 1;
+  opacity: 1;
 }
-
 #photo_s4{
-width: 100%;
-margin-bottom: -1%;
-margin-top: 0%;
-
-/*z-index: 1;*/
+  width: 100%;
+  margin-bottom: -1%;
+  margin-top: 0%;
 }
-
-/*#texte_s4{
-z-index: 3;
-position: absolute;
-}*/
-/*#form_s4{
-z-index: 2;
-position:absolute;
-}*/
-
 /*Bouton demander un essai*/
 #header-btn{
-display: flex;
-align-items: center;
-background-color: white;
-width: 17vw;
-margin: 0;
-padding: 0;
-align-self: flex-end;
-
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 17vw;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
 }
 #header-btn a{
-text-decoration: none;
-font-family: 'Playfair Display', serif;
-color: black;
-font-weight: 500;
-font-size: 17px;
-margin-left: -4%;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: -4%;
 }
 main{
-margin-top: -1%;
+  margin-top: -1%;
 }
 #padtest{
-display:flex;
-justify-content: flex-end;
-align-items: flex-end;
-height:15%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height:15%;
 }
 .perf{
-display: flex;
-justify-content: space-between;
-border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 .end{
-display: flex;
-justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 .perfresult{
-font-weight: 500;
-font-family: 'Lato', sans-serif;
-font-size: 21px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
 }
 #lastperf {
-border-bottom: none;
+  border-bottom: none;
 }
 /*partie footer*/
 #links{
-width: 50%;
-display: flex;
-
+  width: 50%;
+  display: flex;
 }
 .liens{
-width: 50%;
-font-size: 21px;
+  width: 50%;
+  font-size: 21px;
 }
 footer{
-display: flex;
-background-color: black;
-color: white;
-margin-top: 0%;
-padding-bottom: 3%;
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 0%;
+  padding-bottom: 3%;
 }
 #social{
-justify-content: space-around;
-margin-left: 37%;
-margin-top: 3%;
+  justify-content: space-around;
+  margin-left: 37%;
+  margin-top: 3%;
 }
-
 li{
-line-height: 180%;
-list-style: none;
-font-family: 'Lato', sans-serif;
+  line-height: 180%;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
 }
-
 #links h3{
-margin-top: 17%;
-margin-left:11%;
+  margin-top: 17%;
+  margin-left:11%;
 }
 /*section formulaire*/
 #relative_2{
-position: relative;
-width: 100%;
+  position: relative;
+  width: 100%;
 }
 #absolute_2{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
 }
 #image_form{
-width: 100%;
-margin: 0%;
+  width: 100%;
+  margin: 0%;
 }
 #section_4{
-width: 100%;
-margin-top: -1%;
-margin-bottom: -1%;
+  width: 100%;
+  margin-top: -1%;
+  margin-bottom: -1%;
 }
 form{
-display: flex;
-flex-direction: column;
-width: 40%;
-justify-self: flex-end;
-margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-self: flex-end;
+  margin-right: 5%;
 }
 #contenant_form{
-display: flex;
-justify-content: flex-end;
-margin-top: -4%;
-height:73%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -4%;
+  height:73%;
 }
 .form_s4{
-margin-top: 5%;
-padding: 2%;
-border: none;
-color: black;
+  margin-top: 5%;
+  padding: 2%;
+  border: none;
+  color: black;
 }
-
 #button{
-background-color: black;
-color:white;
-padding: 2%;
-width: 50%;
-font-size: 28px;
-font-weight: bold;
-font-family: 'Playfair Display', serif;
-border: none;
-
+  background-color: black;
+  color:white;
+  padding: 2%;
+  width: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  border: none;
 }
-
 #id_button{
-display: flex;
-justify-content:center;
+  display: flex;
+  justify-content:center;
 }
-
 #mergeRow-gdpr *{
 font-size: 12px;
 }
 .liens a{
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 .liens a:hover{
-color: #f70930;
+  color: #f70930;
 }
 #texte_s4 h2{
-font-size: 78px;
-margin-bottom: 0%;
+  font-size: 78px;
+  margin-bottom: 0%;
 }
 #texte_s4 h3{
-font-size: 39px;
-font-weight: 400;
-margin-top: 0%;
+  font-size: 39px;
+  font-weight: 400;
+  margin-top: 0%;
 }
 #texte_s4{
-padding-left: 5%;
-height: 27%;
+  padding-left: 5%;
+  height: 27%;
 }
 .liens h3{
-font-size: 25px;
+  font-size: 25px;
 }
 #pad_foot{
-padding-bottom: 7%;
+  padding-bottom: 7%;
 }
 #header_photo{
-width: 100%;
+  width: 100%;
 }
