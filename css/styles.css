@@ -6,12 +6,14 @@ body{
 }
 header {
   width: 100%;
-  margin: 0%;
+  margin: 0;
 }
 #relatif{
   position: relative;
   width: 100%;
 }
+
+
 #absolute{
   display: flex;
   position: absolute;
@@ -19,25 +21,26 @@ header {
   left: 0;
   width: 100%;
   flex-direction: column;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  height: 100%;
   margin-bottom: -2%;
 }
 
 #contenant-logo{
   display: flex;
   justify-content: center;
+  height: 21%;
+}
+  #contenant-logo img{
+  max-height:60%;
 }
 
-#logo{
-  width:8%;
-  justify-content: center;
-}
 /* deuxième titre visuel*/
 h1 {
   color: white;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size : 60px;
+  font-size : 57px;
   margin-bottom: 0px;
   margin-top: -5%;
 }
@@ -46,19 +49,21 @@ h1 {
   color: white;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  font-size : 81px;
+  font-size : 77px;
   margin-right: 20%;
   line-height: 100%;
+  
 }
 /* DIV containing the titles */
 #title {
   display: flex;
   flex-direction: column-reverse;
   margin-left: 5%;
-  position: absolute;
   top: 0%;
   left: 0%;
-  padding-top: 23%;
+  /* padding-top: 23%; */
+  height: 64%;
+  justify-content: center;
 }
 
 section {
@@ -176,10 +181,11 @@ p {
   display: flex;
   align-items: center;
   background-color: white;
-  width: 220px;
-  margin-left: 80%;
+  width: 17vw;
+  margin: 0;
+  padding: 0;
   align-self: flex-end;
-  /*margin-top: 52%;*/
+  
 }
 #header-btn a{
   text-decoration: none;
@@ -193,7 +199,10 @@ main{
   margin-top: -1%;
 }
 #padtest{
-  padding-top: 777px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height:15%;
 }
 .perf{
   display: flex;
@@ -255,9 +264,10 @@ li{
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 #image_form{
   width: 100%;
@@ -279,6 +289,7 @@ form{
   display: flex;
   justify-content: flex-end;
   margin-top: -4%;
+  height:73%;
 }
 .form_s4{
   margin-top: 5%;
@@ -325,6 +336,7 @@ font-size: 12px;
 }
 #texte_s4{
   padding-left: 5%;
+  height: 27%;
 }
 .liens h3{
   font-size: 25px;
