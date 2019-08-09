@@ -8,6 +8,7 @@ header {
   width: 100%;
   margin: 0;
 }
+
 #relatif{
   position: relative;
   width: 100%;
@@ -20,7 +21,7 @@ header {
   width: 100%;
   flex-direction: column;
   box-sizing: content-box;
-  height: 100%;
+  height: 100vh;
 }
 #contenant-logo{
   display: flex;
@@ -28,7 +29,9 @@ header {
   height: 21%;
 }
 #contenant-logo img{
-  max-height:60%;
+height:16vh;
+
+ 
 }
 /* deuxième titre visuel*/
 h1 {
@@ -47,6 +50,7 @@ h1 {
   font-size : 77px;
   margin-right: 20%;
   line-height: 100%;
+  margin-top: 250px;
 }
 /* DIV containing the titles */
 #title {
@@ -54,7 +58,6 @@ h1 {
   flex-direction: column-reverse;
   margin-left: 5%;
   top: 0%;
-  left: 0%;
   height: 64%;
   justify-content: center;
 }
@@ -151,6 +154,7 @@ p {
   margin: 0;
   padding: 0;
   align-self: flex-end;
+  position: fixed;
 }
 #header-btn a{
   text-decoration: none;
@@ -204,15 +208,16 @@ footer{
 }
 #social{
   justify-content: space-around;
-  margin-left: 37%;
+  margin-left: 34%;
   margin-top: 3%;
 }
+
 li{
   line-height: 180%;
   list-style: none;
   font-family: 'Lato', sans-serif;
 }
-#links h3{
+#links h3 {
   margin-top: 17%;
   margin-left:11%;
 }
@@ -230,6 +235,7 @@ li{
   display: flex;
   flex-direction: column;
   box-sizing: content-box;
+  height: 100vh;
 }
 #image_form{
   width: 100%;
@@ -250,8 +256,8 @@ form{
 #contenant_form{
   display: flex;
   justify-content: flex-end;
-  margin-top: -4%;
-  height:73%;
+  margin-top: -3%;
+  height:73vh;
 }
 .form_s4{
   margin-top: 5%;
@@ -281,7 +287,7 @@ font-size: 12px;
   color: white;
 }
 .liens a:hover{
-  color: #f70930;
+  color: #534396;
 }
 #texte_s4 h2{
   font-size: 78px;
@@ -296,7 +302,7 @@ font-size: 12px;
   padding-left: 5%;
   height: 27%;
 }
-.liens h3{
+.liens h3, #social h3{
   font-size: 25px;
 }
 #pad_foot{
@@ -305,18 +311,24 @@ font-size: 12px;
 #header_photo{
   width: 100%;
 }
-#button:hover, #header-btn:hover{
-  background-color: #231c85;
+#button:hover{
+  background-color: #534396;
 }
 .pink:hover{
-  width: 60px;
+  width: 45px;
 }
 #header-btn a:hover{
-  color: white;
+  color:#534396;
 }
+footer img{
+  padding: 0 5px 0 5px;
+}
+
+
+
 @media 
-screen and (max-width: 1100px),
-screen and (max-device-width: 1100px){
+screen and (max-width: 1024px),
+screen and (max-device-width: 1024px){
   #contenant-logo{
     width: 100%;
     justify-content: center;
@@ -325,20 +337,26 @@ screen and (max-device-width: 1100px){
   header h1 { 
     font-size: 40px;  
     justify-content: flex-end;
+    margin-top:10%;
   }
   #overtitle{
     margin-right:0;
-    font-size: 70px;
+    font-size: 75px;
     justify-content: flex-end;
+    margin-top:-97px;
   }
   #absolute{
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
-
+  #contenant-logo img{
+    height:7vh;
+  }
+    
   #title{
- align-items: flex-start;
- margin-right: 480px;
+  align-items: flex-start;
+  margin-right: 200px;
   }
   section, #section_1, #section_3, #section_4 {
       display: flex;
@@ -356,6 +374,198 @@ screen and (max-device-width: 1100px){
   #texte_s1, #texte_s2, #texte_s3{
     width: 90%;
   }
+  #texte_s1 p, #texte_s2 p , #texte_s3 p{
+   font-size: 35px;
+  }
+  #texte_s1 h2, #texte_s2 h2 , #texte_s3 h2{
+    font-size: 40px;
+   }
+   #texte_s1 h3 , #texte_s3 h3{
+    font-size: 30px;
+    padding-bottom: 2%;
+   }
+   #texte_s2 h3{
+    font-size: 35px;
+   }
+  .perfresult, .end{
+    font-size: 35px;
+    font-weight: 500;
+  }
+  #padtest{
+    justify-content: flex-end;
+    padding-left: 50px;
+  }
+  #header-btn{
+    width: 35vw;
+    align-self: center;
+    position: relative;
+  }
+  #header-btn img{
+    width: 30%;
+  }
+  #header-btn a{
+    font-size:27px;
+  }
+  /* Début changements formulaire */
+  #relative_2{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 100%;
+  }
+  #photo_s4{  
+    display: none;
+  }
+  .form_s4{
+    margin-top: 12px;
+    padding: 3%;
+    border: none;
+    color: black;
+    opacity : 0.5;
+  }
+  #texte_s4{
+    /* margin-right:470px; */
+    height: 20%;
+  }
+  
+  #texte_s4 h2{
+    font-size: 73px;
+    line-height: 110%;
+    margin-top: 15px;
+  }
+  
+  #texte_s4 h3{
+   margin-top: 0px;
+   padding-top: 0px;
+
+  }
+  #contenant_form{
+    width:100%;
+    height: 50vh;
+  }
+  #absolute_2{
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color:black;
+    background-image: url(../img/bmw4x4brouillard.png);
+    background-repeat: no-repeat; 
+  }
+  form{
+    width: 90%;
+    height: 55vh;
+  }
+  footer{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #links{
+    width: 100%;
+    justify-content: space-around;
+  }
+  #liens{
+    width: 100%;
+  }
+  #links h3{
+    margin-top: 10%;
+    margin-left:8%;
+    font-size: 37px;
+  }
+  #social{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    margin: auto;
+    border-bottom: 2px white dashed;
+  }
+#social h3{
+  font-size: 37px;
+  }
+  #foot_img{
+    display: flex;
+    justify-items: center;
+  }
+  footer img{
+    padding: 20px 20px 0 20px;
+  }
+#button{
+  font-size: 35px;
+}
+
+#links a{
+  font-size: 26px;
+}
+
+}
+@media
+screen and (max-width: 768px),
+screen and (max-device-width: 768px){
+  #contenant_form{
+    height: 50vh;
+  }
+}
+@media 
+screen and (max-width: 500px),
+screen and (max-device-width: 500px){
+  #contenant-logo{
+    width: 100%;
+    justify-content: center;
+  }
+  #contenant-logo img{
+    height:5vh;
+  }
+  header h1 { 
+    font-size: 43px;  
+    justify-content: flex-end;
+    padding-top: 0px;
+  }
+  #overtitle{
+    margin-right:0px;
+    font-size: 80px;
+    justify-content: flex-end;
+    margin-top: -30px;
+  }
+  
+  #absolute{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title{
+ align-items: flex-start;
+ margin-right: 90px;
+  }
+  section, #section_1, #section_3, #section_4 {
+      display: flex;
+      /*flex-direction: column;*/
+      flex-direction: column;
+      width: 100%;
+  }
+  #section_2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #photo_s1, #photo_s2, #images_s3 {
+    width: 100%;
+  }
+  #texte_s1, #texte_s2, #texte_s3{
+    width: 90%;
+  }
+  #texte_s1 p, #texte_s3 p{
+    font-size: 28px;
+   }
+   #texte_s1 h2, #texte_s2 h2 , #texte_s3 h2{
+     font-size: 37px;
+    }
+    #texte_s1 h3 , #texte_s3 h3{
+     font-size: 20px;
+     padding-bottom: 2%;
+    }
+    #texte_s2 h3, #texte_s2 p {
+     font-size: 35px;
+    }
   .perfresult, .end{
     font-size: 35px;
     font-weight: 500;
@@ -367,9 +577,14 @@ screen and (max-device-width: 1100px){
   #header-btn{
     width: 30vw;
     align-self: center;
+    position: relative;
   }
   #header-btn a{
-    font-size:25px;
+    font-size:26px;
+    margin-left: -2%;
+  }
+  #header-btn img{
+    width: 20%;
   }
   .form_s4{
     margin-top: 12px;
@@ -378,10 +593,10 @@ screen and (max-device-width: 1100px){
     color: black;
   }
   #texte_s4{
-    margin-right:470px;
+    margin-right:0px;
   }
   #contenant_form{
-    margin-top: -100px;
+    height: 37vh;
   }
   footer{
     display: flex;
@@ -414,7 +629,20 @@ screen and (max-device-width: 1100px){
     padding: 0 20px 0 20px;
   }
   #texte_s4 h3{
-    padding-top: 100px;
+    padding-top: 0px;
+    margin-top:0px;
+  }
+
+  #texte_s4 h2 {
+    font-size: 73px;
+    margin-top: 15px;
   }
 }
 
+@media
+screen and (max-width: 300px),
+screen and (max-device-width: 300px){
+  #contenant_form{
+    height: 31vh;
+  }
+}
